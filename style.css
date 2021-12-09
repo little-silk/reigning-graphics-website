@@ -139,12 +139,14 @@ h3 {
   font-size: 64px;
   font-weight: normal;
   transform: rotate(-90deg);
-  grid-column-start: 3;
-  grid-column-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 5;
   text-transform: none;
   font-style: normal;
+  margin-left: 95px;
+  margin-top: 0;
 }
 
 .blue {
