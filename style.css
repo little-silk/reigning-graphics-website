@@ -42,7 +42,7 @@ header img {
 
 .bio {
   display: grid;
-  grid-template-columns: 4% 10% 20% 15% 3% 41% 7%;
+  grid-template-columns: 4% 10% 20% 15% 3% 30% 19%;
   grid-template-rows: 5% 5% 70% 10% 10%;
 }
 
