@@ -30,7 +30,12 @@ nav {
   margin-top: 30px;
 }
 
-nav p:hover {
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
   color: #67074E;
 }
 
