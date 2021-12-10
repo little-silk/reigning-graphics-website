@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background: black;
+  margin: 0 auto;
+  width: 1200px;
+  color: white;
+  font-family: Montserrat;
+}
+
+header {
+  background-image: url("https://i.imgur.com/YNyR7mQ.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 200px;
+  display: grid;
+  grid-template-columns: 20% 40% 10% 10% 20%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+  font-size: 24px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #67074e;
+}
+
+header img {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  margin-left: 50px;
+  width: 100%;
+}
+
+.one {
+  display: grid;
+  grid-template-columns: 10% 45% 40% 5%;
+  grid-template-rows: 40% 23% 37%;
+  margin-bottom: 100px;
+}
+
+.one img {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  width: 100%;
+}
+
+.style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-style: italic;
+  background: #67074e;
+  font-size: 30px;
+  width: 250px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.style:hover {
+  color: white;
+  background: #07828f;
+}
+
+.buttonone {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.two {
+  display: grid;
+  grid-template-columns: 10% 45% 40% 5%;
+  grid-template-rows: 40% 30% 10%;
+  margin-bottom: 100px;
+}
+
+.two img {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  width: 100%;
+}
+
+.buttontwo {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.three {
+  display: grid;
+  grid-template-columns: 5% 45% 5% 40% 5%;
+  grid-template-rows: 30% 23% 32% 5%;
+  margin-bottom: 100px;
+}
+
+.three .color {
+  background: #07828f;
+  border-radius: 0 20px 20px 0;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+.three img {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 100%;
+}
+
+.buttonthree {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.four {
+  display: grid;
+  grid-template-columns: 10% 45% 40% 5%;
+  grid-template-rows: 35% 35% 30%;
+  margin-bottom: 100px;
+}
+
+.four img {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  width: 100%;
+}
+
+.buttonfour {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+footer {
+  margin-top: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url("  https://i.imgur.com/ksqRtKN.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+footer img {
+  width: 10%;
+  margin: 50px;
+}
+
+footer h2 {
+  font-weight: normal;
+  font-style: italic;
+  color: #67074e;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+
+footer p {
+  margin-left: 15px;
+  font-size: 10px;
+}
+
+footer .media {
+  margin-top: 35px;
+  margin-right: 50px;
+}
+
+footer .media p {
+  font-size: 24px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+footer svg {
+  height: 30px;
+}
