@@ -22,7 +22,6 @@ fetch(url)
       // template
       const template = `
           <figure>
-            <figcaption>${name}</figcaption>
             <img src="${photoUrlID}" alt="Placeholder" />
           </figure>`;
       gall.insertAdjacentHTML("afterbegin", template);
