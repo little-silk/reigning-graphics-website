@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-image: url("assets/blueDiamond.jpg");
+  background-image: url("assets/blueDiamond.png");
   background-position: center;
   background-size: cover;
   margin-bottom: 150px;
@@ -146,7 +146,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-image: url("assets/whiteDiamond.jpg");
+  background-image: url("assets/whiteDiamond.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

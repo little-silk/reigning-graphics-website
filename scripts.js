@@ -25,7 +25,6 @@ fetch(url)
             <figcaption>${name}</figcaption>
             <img src="${photoUrlID}" alt="Placeholder" />
           </figure>`;
-      // insert EACH `student` record into container
       gall.insertAdjacentHTML("afterbegin", template);
       index++;
     });
