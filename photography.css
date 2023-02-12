@@ -3,7 +3,7 @@
 body {
   background: black;
   margin: 0 auto;
-  width: 1200px;
+  max-width: 100%;
   color: white;
   font-family: Montserrat;
 }
@@ -45,7 +45,6 @@ header img {
   margin-left: 50px;
   width: 100%;
 }
-
 .gallery {
   display: grid;
   grid-gap: 0.75rem;
@@ -70,6 +69,19 @@ header img {
 .gallery figure {
   position: relative;
 } 
+
+.gallery figcaption {
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+  background: rgba(255, 255, 255);
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  display: none;
+  z-index: 1;
+  padding: 20px;
+}
+  
   .gallery :first-child {
     grid-area: 1/1/span 2/2 span;
   }
@@ -126,7 +138,7 @@ header img {
       grid-column: 1 span;
       grid-row: 2 span;
     }
-
+    
 footer {
   margin-top: 250px;
   display: flex;
