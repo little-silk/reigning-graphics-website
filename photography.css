@@ -3,7 +3,7 @@
 body {
   background: black;
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
   color: white;
   font-family: Montserrat;
 }
