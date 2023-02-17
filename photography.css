@@ -45,6 +45,7 @@ header img {
   margin-left: 50px;
   width: 100%;
 }
+
 .gallery {
   display: grid;
   grid-gap: 0.75rem;
@@ -63,81 +64,144 @@ header img {
 
 .gallery img {
   display: block;
-     object-fit: cover;
+  object-fit: cover;
+}
+
+.gallery img:hover {
+  border: 3px solid #07828f;
 }
 
 .gallery figure {
   position: relative;
 } 
-
-.gallery figcaption {
-  font-size: 1.5em;
-  color: rgb(0, 0, 0);
-  background: rgba(255, 255, 255);
-  position: absolute;
-  bottom: 0; 
-  left: 0;
-  display: none;
-  z-index: 1;
-  padding: 20px;
-}
   
   .gallery :first-child {
-    grid-area: 1/1/span 2/2 span;
+    grid-area: 1 span / 2 span;
   }
+
   .gallery :nth-child(2n) {
-    grid-column: span 1;
+    grid-area: 1 span;
   }
+
   .gallery :nth-child(3n) {
-      grid-column: span 1;
+      grid-area: 1 span;
     }
+
     .gallery :nth-child(4n) {
-      grid-column: span 2;
+      grid-area: 1 span;
     }
+
+    .gallery :nth-child(5n) {
+      grid-area: 1 span / 2 span;
+    }
+
+    .gallery :nth-child(6n) {
+      grid-area: 1 span;
+    }
+
+    .gallery :nth-child(7n) {
+      grid-area: 1 span;
+    }
+
     .gallery :nth-child(8n) {
-      grid-column: 1 span;
-      grid-row: 1 span;
+      grid-area: 1 span / 2 span;
     }
 
     .gallery :nth-child(9n) {
-      grid-column: 1 span;
-      grid-row: 1 span;
+      grid-area: 1 span;
     }
 
     .gallery :nth-child(10n) {
-      grid-column: 1 span;
-      grid-row: 1 span;
+      grid-area: 1 span;
     }
 
     .gallery :nth-child(11n) {
-      grid-column: 2 span;
-      grid-row: 2 span;
+      grid-area: 2 span;
     }
 
     .gallery :nth-child(12n) {
-      grid-column: 1 span;
-      grid-row: 1 span;
+      grid-area: 2 span / 2 span;
+    }
+
+    .gallery :nth-child(13n) {
+      grid-area: 1 span;
     }
 
     .gallery :nth-child(14n) {
-      grid-column: 2 span;
-      grid-row: 1 span;
+      grid-area: 1 span / 2 span;
     }
 
     .gallery :nth-child(15n) {
-      grid-column: 1 span;
-      grid-row: 1 span;
+      grid-area: 1 span;
+    }
+
+    .gallery :nth-child(16n) {
+      grid-area: 1 span;
     }
 
     .gallery :nth-child(17n) {
-      grid-column: 2 span;
-      grid-row: 2 span;
+      grid-area: 2 span / 2 span;
     }
 
     .gallery :nth-child(18n) {
-      grid-column: 1 span;
-      grid-row: 2 span;
+      grid-area: 1 span;
     }
+
+    .gallery :nth-child(19n) {
+      grid-area: 1 span;
+    }
+
+    .gallery :nth-child(20n) {
+      grid-area: 2 span / 2 span;
+    }
+
+    .gallery :nth-child(21n) {
+      grid-area: 2 span / 1 span;
+    }
+
+    .gallery :nth-child(22n) {
+      grid-area: 1 span;
+    }
+  
+    .gallery :nth-child(23n) {
+        grid-area: 1 span;
+      }
+  
+      .gallery :nth-child(24n) {
+        grid-area: 2 span / 2 span;
+      }
+  
+      .gallery :nth-child(25n) {
+        grid-area: 1 span;
+      }
+
+    .gallery :nth-child(26n) {
+      grid-area: 1 span;
+    }
+
+    .gallery :nth-child(27n) {
+      grid-area: 2 span;
+    }
+  
+    .gallery :nth-child(28n) {
+        grid-area: 2 span;
+      }
+  
+      .gallery :nth-child(29n) {
+        grid-area: 1 span;
+      }
+  
+      .gallery :nth-child(30n) {
+        grid-area: 1 span;
+      }
+
+      .gallery :nth-child(31n) {
+        grid-area: 1 span;
+      }
+
+      .gallery :nth-child(32n) {
+        grid-area: 1 span;
+      }
     
 footer {
   margin-top: 250px;

@@ -96,6 +96,16 @@ img {
   width: 50%;
 }
 
+.main a {
+  color: #07828f;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main a:hover {
+  color: #67074e;
+}
+
 .setone {
   display: grid;
   grid-template-columns: 10% 30% 10% 10% 30% 10%;
