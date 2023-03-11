@@ -101,6 +101,7 @@ img {
   color: #07828f;
   text-decoration: none;
   text-transform: uppercase;
+  font-style: italic;
 }
 
 .main a:hover {
