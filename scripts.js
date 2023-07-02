@@ -18,7 +18,7 @@ fetch(url)
       var secret = (data.photoset.photo[index].secret);
       const gall = document.querySelector(".gallery")
       const name = (data.photoset.photo[index].title)
-      const photoUrlID = (photoUrl+ID+"_"+secret+".jpg");
+      const photoUrlID = (photoUrl+ID+"_"+secret+".webp");
       // template
       const template = `
           <figure>
