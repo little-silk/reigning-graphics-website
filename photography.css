@@ -247,3 +247,16 @@ footer .media p {
 footer svg {
   height: 30px;
 }
+.card{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1024px) {
+  header {
+    grid-template-columns: 20% 40% 10% 10% 20%;
+  }
+}

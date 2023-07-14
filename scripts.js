@@ -11,14 +11,13 @@ fetch(url)
   .then( response  => response.json())
   .then( data  => {
     // check-check: get one image
-    // Note: Webflow returns data in array called `items`
     // get container for data
     data.photoset.photo.forEach( photo => {
       var ID = (data.photoset.photo[index].id);
       var secret = (data.photoset.photo[index].secret);
       const gall = document.querySelector(".gallery")
       const name = (data.photoset.photo[index].title)
-      const photoUrlID = (photoUrl+ID+"_"+secret+".webp");
+      const photoUrlID = (photoUrl+ID+"_"+secret+".jpg");
       // template
       const template = `
           <figure>
